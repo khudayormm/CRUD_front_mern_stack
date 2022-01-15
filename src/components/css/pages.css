@@ -1,0 +1,246 @@
+.pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 1px 5px 15px -10px #000000; 
+    box-shadow: 1px 5px 15px -10px #000000;
+}
+
+.header-text {
+    color: #1F618D;
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-header {
+    color: #3cb159;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.success-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    outline: 2px solid #353535;
+    background-color: #F5B041;
+    width: 250px;
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 60px;
+    margin: 5px;
+    color: #F8F9F9;
+    transition-duration: 0.3s;
+}
+
+.success-btn:nth-child(2) {
+    background-color: #3cb159;
+}
+
+.success-btn:hover {
+    background-color: #3c6fb1;
+    color: #F8F9F9;
+}
+
+
+
+table {
+    border: 1px solid #353535;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+tr {
+    width: 100%;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F9F9;
+}
+
+th {
+    background-color: #5DADE2;
+    color: #F8F9F9;
+    padding: 5px;
+}
+
+th:nth-child(1) {
+    background-color: #5DADE2;
+    color: #F8F9F9;
+    text-align: center;
+}
+
+th:nth-child(4) {
+    width: 80px;
+    background-color: #5DADE2;
+    color: #F8F9F9;
+    text-align: center;
+}
+
+th:nth-child(5) {
+    width: 80px;
+    text-align: center;
+}
+
+td:nth-child(1) {
+    width: 30px;
+    text-align: center;
+}
+
+td:nth-child(5) {
+    width: 80px;
+    text-align: center;
+}
+
+td:nth-child(4) {
+    width: 80px;
+    text-align: center;
+}
+
+td {
+    width: 200px;
+    padding: 5px;
+}
+
+
+.btn-table {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.delete-btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 30px;
+    background-color: #CB4335;
+    color: #F8F9F9;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    transform: scale(1.1);
+}
+
+.delete-btn:active {
+    background-color: #F7DC6F;
+    color: #353535;
+}
+
+.edit-btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 1px;
+    width: 40px;
+    background-color: #5DADE2;
+    color: #F8F9F9;
+    margin: 5px;
+}
+
+
+.edit-btn:hover {
+    transform: scale(1.1);
+}
+
+.edit-btn:active {
+    background-color: #F7DC6F;
+    color: #353535;
+}
+
+
+/* create player page styles */
+
+small {
+    font-size: 8px;
+}
+
+
+.input-text {
+    width: 100%;
+    display: inline-block;
+    height: 25px;
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+.create-submit {
+    cursor: pointer;
+    display: inline;
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    padding: 5px;
+    background-color: #1F618D;
+    color: #F8F9F9;
+    border-radius: 3px;
+    border: none;
+    outline: 1px solid #353535;
+    transition-duration: 0.5s;
+}
+
+.create-submit:hover {
+    background-color: #3692d8;
+}
+
+.create-submit:active {
+    background-color: #F7DC6F;
+    color: #353535;
+}
+
+.pagination {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginate-btn {
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    cursor: pointer;
+    margin: 2px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #3692d8;
+    outline: 0.5px solid #353535;
+    color: #F8F9F9;
+    transition: 0.3s;
+}
+
+.paginate-btn:hover {
+    transform: scale(1.1);
+    background-color: #5DADE2;
+}
+
+.paginate-btn:active {
+    background-color: #F5B041;
+    color: #353535;
+}
